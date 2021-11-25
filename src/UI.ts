@@ -15,7 +15,7 @@ enum Status {
     pending = "Pendiente",
     executing = "En ejecución",
     finished = "Finalizada"
-}
+};
 
 export default class UI {
     private commands = Commands;

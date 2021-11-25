@@ -53,7 +53,7 @@ async function main(){
                 await selectedCommand[answer.slice(12,answer.length - 2)](name.user);
             }
 
-        }catch(e){
+        }catch(e: any){
             ui.show(e);
         }
     }while(again);
