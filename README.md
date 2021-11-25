@@ -172,6 +172,8 @@ npm install
 npm run build
 ```
 
+- En la transpilación se crea un directorio llamado _/dist_ donde se encuentran los archivos _.js_ que se ejecutarán.
+
 ### \# Ejecución de la aplicación
 
 ```shell
